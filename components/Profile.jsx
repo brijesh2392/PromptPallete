@@ -1,8 +1,9 @@
-import PromptCard from "./PromptCard";
+import PromptCard from "../components/PromptCard.jsx";
 
 const Profile = ({ name, desc, data, handleEdit, handleDelete }) => {
-  return (
+  (
     <section className="w-full">
+      console.log("whats the error");
       <h1 className="head_text text-left">
         <span className="blue_gradient">{name} Profile</span>
       </h1>
